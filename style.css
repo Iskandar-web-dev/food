@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.one {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.container .blue {
+    color: blue;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.three button {
+    all: unset;
+    padding: 10px 20px;
+    background-color: #CFE7FF;
+    border-radius: 14px;
+    color: #797979;
+}
+.three .active {
+    background-color: #0071E3;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.buttons .item {
+    border: 3px solid #CFE7FF;
+    border-radius: 14px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.buttons .active {
+    border: 2px solid #007FFF;
+    transition: .10s ease;
+    
+}
+
+
+.img {
+    background-image: url(./assets/img/silver.png);
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    transition: .9s ease;
+}
+
+
+.active {
+    border: 2px solid #007FFF;
+    transition: .10s ease;
+}
